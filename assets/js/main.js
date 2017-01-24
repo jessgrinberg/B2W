@@ -1,11 +1,11 @@
 $(function() {
 	//Cache the window object
-	var $(window) = $(window);
+	var $window = $(window);
 	$('section[data-type="background').each(function() {
 
 		var $bgobj = $(this); // assigning the object
 		
-		$(window).scroll(function() {
+		$window.scroll(function() {
 
 			//scroll the background at var speed
 			//the Ypos is a negative value because we're scrolling it UP!
